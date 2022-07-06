@@ -1,0 +1,111 @@
+{
+  "name": "package-manager-node-descriptor",
+  "dependencies": {
+    "shelljs": {
+      "version": "0.8.5",
+      "resolved": "https://registry.npmjs.org/shelljs/-/shelljs-0.8.5.tgz",
+      "dependencies": {
+        "glob": {
+          "version": "7.2.3",
+          "resolved": "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz",
+          "dependencies": {
+            "fs.realpath": {
+              "version": "1.0.0",
+              "resolved": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
+            },
+            "inflight": {
+              "version": "1.0.6",
+              "resolved": "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz",
+              "dependencies": {
+                "once": {
+                  "version": "1.4.0"
+                },
+                "wrappy": {
+                  "version": "1.0.2",
+                  "resolved": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
+                }
+              }
+            },
+            "inherits": {
+              "version": "2.0.4",
+              "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+            },
+            "minimatch": {
+              "version": "3.1.2",
+              "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz",
+              "dependencies": {
+                "brace-expansion": {
+                  "version": "1.1.11",
+                  "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz",
+                  "dependencies": {
+                    "balanced-match": {
+                      "version": "1.0.2",
+                      "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
+                    },
+                    "concat-map": {
+                      "version": "0.0.1",
+                      "resolved": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
+                    }
+                  }
+                }
+              }
+            },
+            "once": {
+              "version": "1.4.0",
+              "resolved": "https://registry.npmjs.org/once/-/once-1.4.0.tgz",
+              "dependencies": {
+                "wrappy": {
+                  "version": "1.0.2"
+                }
+              }
+            },
+            "path-is-absolute": {
+              "version": "1.0.1",
+              "resolved": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
+            }
+          }
+        },
+        "interpret": {
+          "version": "1.4.0",
+          "resolved": "https://registry.npmjs.org/interpret/-/interpret-1.4.0.tgz"
+        },
+        "rechoir": {
+          "version": "0.6.2",
+          "resolved": "https://registry.npmjs.org/rechoir/-/rechoir-0.6.2.tgz",
+          "dependencies": {
+            "resolve": {
+              "version": "1.22.1",
+              "resolved": "https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz",
+              "dependencies": {
+                "is-core-module": {
+                  "version": "2.9.0",
+                  "resolved": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.9.0.tgz",
+                  "dependencies": {
+                    "has": {
+                      "version": "1.0.3",
+                      "resolved": "https://registry.npmjs.org/has/-/has-1.0.3.tgz",
+                      "dependencies": {
+                        "function-bind": {
+                          "version": "1.1.1",
+                          "resolved": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
+                        }
+                      }
+                    }
+                  }
+                },
+                "path-parse": {
+                  "version": "1.0.7",
+                  "resolved": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz"
+                },
+                "supports-preserve-symlinks-flag": {
+                  "version": "1.0.0",
+                  "resolved": "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
