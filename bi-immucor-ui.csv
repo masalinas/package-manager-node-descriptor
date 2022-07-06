@@ -1,0 +1,100 @@
+name,version,description,license
+@emotion/react,,> Simple styling in React.,MIT
+@emotion/styled,,styled API for emotion,MIT
+@honkhonk/vite-plugin-svgr,,Vite plugin to transform SVGs into React components using svgr under the hood.,MIT
+@mui/icons-material,,Material Design icons distributed as SVG React components.,MIT
+@mui/material,,React components that implement Google's Material Design.,MIT
+@mui/x-data-grid,,The community edition of the data grid component (MUI X).,MIT
+@mui/x-date-pickers,,The community edition of the date picker components (MUI X).,MIT
+@types/react-dom,,TypeScript definitions for React (react-dom),MIT
+@types/react,,TypeScript definitions for React,MIT
+@typescript-eslint/eslint-plugin,,TypeScript plugin for ESLint,MIT
+@typescript-eslint/parser,,An ESLint custom parser which leverages TypeScript ESTree,BSD-2-Clause
+@vitejs/plugin-react,,The all-in-one Vite plugin for React projects.,MIT
+ansi-colors,4.1.3,"Easily add ANSI colors to your text and symbols in the terminal. A faster drop-in replacement for chalk, kleur and turbocolor (without the dependencies and rendering bugs).",MIT
+ansi-regex,5.0.1,Regular expression for matching ANSI escape codes,MIT
+array-back,3.1.0,Guarantees an array back,MIT
+axios,,Promise based HTTP client for the browser and node.js,MIT
+balanced-match,1.0.2,"Match balanced character pairs, like ""{"" and ""}""",MIT
+brace-expansion,1.1.11,Brace expansion as known from sh/bash,MIT
+balanced-match,1.0.2,"Match balanced character pairs, like ""{"" and ""}""",MIT
+concat-map,0.0.1,concatenative mapdashery,MIT
+cli-progress,3.11.2,easy to use progress-bar for command-line/terminal applications,MIT
+string-width,4.2.3,Get the visual width of a string - the number of columns required to display it,MIT
+command-line-args,5.2.1,"A mature, feature-complete library to parse command-line options.",MIT
+array-back,3.1.0,Guarantees an array back,MIT
+find-replace,3.0.0,Replace or remove multiple items in an array.,MIT
+lodash.camelcase,4.3.0,The lodash method `_.camelCase` exported as a module.,MIT
+typical,4.0.0,"Isomorphic, functional type-checking for Javascript",MIT
+concat-map,0.0.1,concatenative mapdashery,MIT
+csv-writer,1.6.0,Convert objects/arrays into a CSV string or write them into a CSV file,MIT
+date-fns,,Modern JavaScript date utility library,MIT
+emoji-regex,8.0.0,A regular expression to match all Emoji-only symbols as per the Unicode Standard.,MIT
+eslint-config-prettier,,Turns off all rules that are unnecessary or might conflict with Prettier.,MIT
+eslint-import-resolver-typescript,,"TypeScript `.cts`, `.mts`, `.ts`, `.tsx` module resolver for `eslint-plugin-import`",ISC
+eslint-plugin-import,,Import with sanity.,MIT
+eslint-plugin-prettier,,Runs prettier as an eslint rule,MIT
+eslint-plugin-react,,React specific linting rules for ESLint,MIT
+eslint,,An AST-based pattern checker for JavaScript.,MIT
+find-replace,3.0.0,Replace or remove multiple items in an array.,MIT
+array-back,3.1.0,Guarantees an array back,MIT
+formik,,"Build forms in React, without the tears",Apache-2.0
+fs.realpath,1.0.0,"Use node's fs.realpath, but fall back to the JS implementation if the native one fails",ISC
+function-bind,1.1.1,Implementation of Function.prototype.bind,MIT
+glob,7.2.3,a little globber,ISC
+fs.realpath,1.0.0,"Use node's fs.realpath, but fall back to the JS implementation if the native one fails",ISC
+inflight,1.0.6,Add callbacks to requests in flight to avoid async duplication,ISC
+inherits,2.0.4,Browser-friendly inheritance fully compatible with standard node.js inherits(),ISC
+minimatch,3.1.2,a glob matcher in javascript,ISC
+once,1.4.0,Run a function exactly one time,ISC
+path-is-absolute,1.0.1,Node.js 0.12 path.isAbsolute() ponyfill,MIT
+has,1.0.3,Object.prototype.hasOwnProperty.call shortcut,MIT
+function-bind,1.1.1,Implementation of Function.prototype.bind,MIT
+husky,,Modern native Git hooks made easy,MIT
+inflight,1.0.6,Add callbacks to requests in flight to avoid async duplication,ISC
+once,1.4.0,Run a function exactly one time,ISC
+wrappy,1.0.2,Callback wrapping utility,ISC
+inherits,2.0.4,Browser-friendly inheritance fully compatible with standard node.js inherits(),ISC
+interpret,1.4.0,A dictionary of file extensions and associated module loaders.,MIT
+is-core-module,2.9.0,Is this specifier a node.js core module?,MIT
+has,1.0.3,Object.prototype.hasOwnProperty.call shortcut,MIT
+is-fullwidth-code-point,3.0.0,Check if the character represented by a given Unicode code point is fullwidth,MIT
+lodash.camelcase,4.3.0,The lodash method `_.camelCase` exported as a module.,MIT
+minimatch,3.1.2,a glob matcher in javascript,ISC
+brace-expansion,1.1.11,Brace expansion as known from sh/bash,MIT
+once,1.4.0,Run a function exactly one time,ISC
+wrappy,1.0.2,Callback wrapping utility,ISC
+path-is-absolute,1.0.1,Node.js 0.12 path.isAbsolute() ponyfill,MIT
+path-parse,1.0.7,Node.js path.parse() ponyfill,MIT
+prettier-eslint-cli,,CLI for prettier-eslint,MIT
+prettier-eslint,,Formats your JavaScript using prettier followed by eslint --fix,MIT
+prettier,,Prettier is an opinionated code formatter,MIT
+react-dom,,React package for working with the DOM.,MIT
+react-query,,"Hooks for managing, caching and syncing asynchronous and remote data in React",MIT
+react-router-dom,,Declarative routing for React web applications,MIT
+react,,React is a JavaScript library for building user interfaces.,MIT
+rechoir,0.6.2,Prepare a node environment to require files with different extensions.,MIT
+resolve,1.22.1,resolve like require.resolve() on behalf of files asynchronously and synchronously,MIT
+resolve,1.22.1,resolve like require.resolve() on behalf of files asynchronously and synchronously,MIT
+is-core-module,2.9.0,Is this specifier a node.js core module?,MIT
+path-parse,1.0.7,Node.js path.parse() ponyfill,MIT
+supports-preserve-symlinks-flag,1.0.0,Determine if the current node version supports the `--preserve-symlinks` flag.,MIT
+shelljs,0.8.5,Portable Unix shell commands for Node.js,BSD-3-Clause
+glob,7.2.3,a little globber,ISC
+interpret,1.4.0,A dictionary of file extensions and associated module loaders.,MIT
+rechoir,0.6.2,Prepare a node environment to require files with different extensions.,MIT
+string-width,4.2.3,Get the visual width of a string - the number of columns required to display it,MIT
+emoji-regex,8.0.0,A regular expression to match all Emoji-only symbols as per the Unicode Standard.,MIT
+is-fullwidth-code-point,3.0.0,Check if the character represented by a given Unicode code point is fullwidth,MIT
+strip-ansi,6.0.1,Strip ANSI escape codes from a string,MIT
+strip-ansi,6.0.1,Strip ANSI escape codes from a string,MIT
+ansi-regex,5.0.1,Regular expression for matching ANSI escape codes,MIT
+supports-preserve-symlinks-flag,1.0.0,Determine if the current node version supports the `--preserve-symlinks` flag.,MIT
+typescript,,TypeScript is a language for application scale JavaScript development,Apache-2.0
+typical,4.0.0,"Isomorphic, functional type-checking for Javascript",MIT
+uid,,A tiny (130B to 205B) and fast utility to randomize unique IDs of fixed length,MIT
+vite-plugin-eslint,,ESLint plugin for vite.,MIT
+vite-tsconfig-paths,,Vite resolver for TypeScript compilerOptions.paths,MIT
+vite,,Native-ESM powered web dev build tool,MIT
+wrappy,1.0.2,Callback wrapping utility,ISC
+yup,,Dead simple Object schema validation,MIT
