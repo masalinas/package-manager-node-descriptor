@@ -1,4 +1,5 @@
 const commandLineArgs = require('command-line-args');
+const fs = require('fs');
 const shell = require('shelljs');
 const cliProgress = require('cli-progress');
 const colors = require('ansi-colors');
@@ -74,13 +75,16 @@ function dependencyDescriptor(data) {
     }
 }
 
-// STEP01: recover all dependencies
-let result = shell.exec('npm list --all --json');
+try {
+  // STEP01: recover all dependencies
+  //let result = shell.exec('npm list --all --json');  
+  let result = fs.readFileSync('result.json', 'utf8');
 
 // STEP02: parse dependency result
 //if (result.stderr === '') {
   // parse dependency results
-  result = JSON.parse(result.stdout);
+  //result = JSON.parse(result.stdout);
+  result = JSON.parse(result);
 
   // calculate deep dependencies and start progress bar
   dependencyCounter(result);
@@ -95,9 +99,22 @@ let result = shell.exec('npm list --all --json');
 
   console.log(dependencies);
 
-  // export csv file from dependencies
-  csvWriter.writeRecords(dependencies)
+  // remove dependencies duplicated
+  const filteredDependencies = dependencies.reduce((acc, current) => {
+    const x = acc.find(item => item.name === current.name);
+    if (!x) {
+      return acc.concat([current]);
+    } else {
+      return acc;
+    }
+  }, []);
+
+  // export csv file from filtered dependencies
+  csvWriter.writeRecords(filteredDependencies)
     .then(() => {
         console.log('... CSV Exported correctly');
     });
+} catch (err) {
+  console.error(err);
+}
 //}

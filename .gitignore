@@ -107,3 +107,6 @@ dist
 dependencies*
 
 .DS_Store
+
+.csv
+.xlms
